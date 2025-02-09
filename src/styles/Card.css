@@ -1,0 +1,60 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas con el mismo ancho */
+    gap: 20px; /* Espacio entre las cards */
+    justify-content: center; /* Centra las cards en el contenedor */
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 130px;
+}
+.card-Card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.card-Card:hover {
+    transform: scale(1.05);  
+}
+
+.pokemonName-Card {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a75bb;  
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.imageContainer-Card {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pokemonImage {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #2a75bb;
+}
+
+.stats-Card {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.stats-Card p {
+    margin: 5px 0;
+}
+
+.stats-Card strong {
+    color: #2a75bb;  
+}

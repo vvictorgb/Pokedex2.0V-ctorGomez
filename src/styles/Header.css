@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffcb05; 
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a75bb; 
+    margin: 0;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a75bb;
+    transition: 0.3s;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+
+.btnLogout {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btnLogout:hover {
+    background-color: #b71c1c;
+}
